@@ -50,6 +50,10 @@ The server present in this repo follows the next execution flow:
 * Once all the events fetched have been processed the results are posted to the output topic.
 * Every 100 events a log is printed with execution time information.
 
+## Customize and Build your Module
 
+This repo is an example of a NodeJs Module but you can replace the section of code marked in the 'server.js' file to add your own processing.
+
+You can update the build.sh script parameters to build and push your Module to a Docker Registry.
 
  
